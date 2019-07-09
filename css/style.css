@@ -1,3 +1,4 @@
+
 body {
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
@@ -174,6 +175,10 @@ header .navbar .dropdown-menu:before {
   border-width: 7px;
 }
 
+#fbmob {
+  display: none;
+}
+
 @media (max-width: 991px) {
   header .navbar .dropdown-menu:before {
     display: none;
@@ -314,6 +319,13 @@ body.offcanvas-open .site-wrap {
 
 main, aside {
   width: 100%;
+}
+
+#fbmob {
+  display: block;
+}
+#fbdesk {
+  display: none;
 }
 
 @media (min-width: 576px) {
