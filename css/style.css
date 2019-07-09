@@ -240,11 +240,11 @@ body.offcanvas-open .site-wrap {
   letter-spacing: .1em;
   font-size: 13px;
   top: 20px;
-  color: #000;
+  color: #FFF;
 }
 
 .offcanvas-toggle:hover {
-  color: #000;
+  color: #33B2FF;
   opacity: .7;
 }
 
@@ -344,11 +344,17 @@ main {
   position: relative;
 }
 
+main.social{
+  padding-top: 3%;
+  
+}
+
 .home-button {
   top: 20px;
   color: #33B2FF;
   font-size: 20px;
   position: absolute;
+  display:none;
 }
 
 @media (min-width: 576px) {
